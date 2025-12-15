@@ -13,7 +13,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, FSInputFile
 # -------------------------
 # Настройки
 # -------------------------
-BOT_TOKEN = 
+BOT_TOKEN = os.getevn
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 os.chdir(BASE_DIR)
 
@@ -180,3 +180,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
